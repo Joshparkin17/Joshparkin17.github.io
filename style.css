@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    border-bottom: 5px solid grey;
+}
+
+#logoleeds {
+    height: 50px;
+    width: 50px;
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+}
+
+#nightmode {
+    height: 30px;
+    width: 30px;
+}
+
+.Leedslogo {
+    flex: 1;
+}
+
+.leedstext {
+    margin: 15px;
+    font-weight: bolder;
+}
+
+nav {
+
+    flex: 3;
+
+}
+
+.nightmode {
+
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nightmode,
+.Leedslogo,
+.nav-pages {
+    display: flex;
+}
+
+.nav-pages {
+    justify-content: space-around;
+    list-style: none;
+}
+
+#nav-link {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.overview {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 30vh;
+    align-items: center;
+
+}
+
+.btnnight {
+    margin-left: 10px;
+    padding: 5px 5px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    min-height: 5vh;
+    width: 85%;
+    margin: auto;
+}
+
+
+}
