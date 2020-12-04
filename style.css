@@ -20,6 +20,12 @@ header {
     margin: auto;
     align-items: center;
     min-height: 10vh;
+    background-image: url(images/leedsfans.png)
+}
+
+.leedstext {
+    color: white;
+
 }
 
 #logoleeds {
@@ -114,8 +120,11 @@ nav {
 #nav-link3,
 #nav-link4 {
     text-decoration: none;
-    color: gray;
+    color: white;
     font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .overview {

@@ -15,6 +15,7 @@ header {
     align-items: center;
     min-height: 10vh;
     border-bottom: 5px solid grey;
+    background-image: url(images/leedshome.png)
 }
 
 #logoleeds {
@@ -66,20 +67,23 @@ nav {
     list-style: none;
 }
 
+#nav-link1,
 #nav-link2,
 #nav-link3,
-#nav-link4,
-#nav-link1 {
+#nav-link4 {
     text-decoration: none;
-    color: gray;
+    color: white;
     font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #nav-link2 {
     text-decoration: none;
-    color: blue;
-    border: 1px solid blue;
-    padding: 2px 3px;
+
+    border: 2px solid blue;
+    padding: 5px;
 
 }
 
