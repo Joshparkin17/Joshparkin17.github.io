@@ -124,12 +124,6 @@ nav {
     display: none;
 }
 
-.facttest {
-    flex: 1;
-
-
-
-}
 
 .User {
     display: flex;
@@ -138,6 +132,11 @@ nav {
     min-height: 10vh;
     flex-direction: column;
 
+}
+
+
+.User {
+    border-bottom: 5px solid grey;
 }
 
 .pagecontent,
@@ -174,10 +173,17 @@ nav {
 
 .Decade {
     justify-content: flex-end;
-
-
-
 }
+
+li {
+    text-decoration: none;
+}
+
+.facttest {
+    display: flex;
+}
+
+
 
 @media screen and (max-width: 1024px) {
     header {

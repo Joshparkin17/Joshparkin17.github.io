@@ -62,15 +62,6 @@ nav {
     border-bottom: 5px solid grey
 }
 
-#Lab {
-    width: 85%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    min-height: 20vh;
-    border-bottom: 5px solid grey;
-}
-
 .Html {
     flex: 2;
 }
@@ -163,14 +154,85 @@ h3 {
     font-size: 20px;
 }
 
-footer {
+.like {
     display: flex;
     min-height: 5vh;
     width: 85%;
     margin: auto;
 }
 
+@media screen and (max-width:424px) {
 
+
+    /* For mobile phones: */
+    header {
+        flex-direction: column;
+
+    }
+
+    .nav-pages {
+        width: 100%;
+        font-size: 5px;
+    }
+
+    #nav-link2,
+    #nav-link3,
+    #nav-link4,
+    #nav-link1 {
+        margin: 5px;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #nav-link2,
+    #nav-link3,
+    #nav-link4,
+    #nav-link1 {
+        font-size: 15px;
+    }
+
+    .nightmode {
+        margin: 10px
+    }
+
+    .pagecontent {
+        flex-direction: column;
+        align-content: center;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+
+    }
+
+    #nav-link2,
+    #nav-link3,
+    #nav-link4,
+    #nav-link1 {
+        font-size: 30px;
+    }
+
+    .nightmode {
+        margin: 10px
+    }
+
+    .pagecontent {
+        flex-direction: column;
+        align-content: center;
+
+    }
+}
 
 @media screen and (max-width: 1024px) {
     header {
@@ -182,6 +244,16 @@ footer {
     #nav-link3,
     #nav-link4,
     #nav-link1 {
-        font-size: 30px;
-        margin: 20px;
+        margin: 10px;
     }
+
+    .nightmode {
+        margin: 10px
+    }
+
+    .pagecontent {
+        flex-direction: column;
+        align-content: center;
+
+    }
+}
