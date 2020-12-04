@@ -178,6 +178,10 @@ footer {
 
     }
 
-    #nav-link {
-        margin: 10px;
+    #nav-link2,
+    #nav-link3,
+    #nav-link4,
+    #nav-link1 {
+        font-size: 30px;
+        margin: 20px;
     }
