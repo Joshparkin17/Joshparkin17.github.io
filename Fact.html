@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Leeds united</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joshua Parkin" />
+    <meta name="description" content="fact Homepage" />
+    <link href="Fact.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="Leedslogo">
+            <img id="logoleeds" src="images/leeds.png" alt="Lufc logo">
+            <h4 class="leedstext">Leeds United</h4>
+
+        </div>
+        <nav>
+            <ul class="nav-pages">
+
+                <li> <a id="nav-link1" href="Fact.html">Facts</a> </li>
+                <li> <a id="nav-link2" href="History.html">History</a></li>
+                <li> <a id="nav-link3" href="players.html">Players</a></li>
+                <li> <a id="nav-link4" href="#">Managers</a></li>
+            </ul>
+        </nav>
+        <div class="nightmode">
+            <img onclick="dark-mode" id="nightmode" src="images/lightonoff.png" alt="nightmode">
+            <button id="nightbtn" class="btnnight" onclick="nightmode()">Night mode</button>
+
+        </div>
+        <div class="homebutton">
+            <a href="home.html"><img id="home" src="images/home.png" alt="homepage"></a>
+
+        </div>
+    </header>
+    <section class="overview">
+        <div class="text">
+            <h1>Fact Page</h1>
+            <p> This is the webpage that contains facts about Leeds United </p>
+        </div>
+
+    </section>
+    <section class="pagecontent">
+
+        <article class="Factcontent">
+            <h2>Key facts</h2>
+            <ul class="keyfacts">
+                <li id="fact1">Leeds is a one club city</li>
+                <li id="fact2"> Leeds is currently playing in the English Preimier Leauge</li>
+                <li id="fact3">The current manager is marcelo bielsa</li>
+                <li id="fact4">Leeds is majorilty owned by an Italian Business man called Andea Radranzinni and partly owned by san fransisco 49ers.</li>
+                <li id="fact5">Leeds is a one club city</li>
+
+            </ul>
+        </article>
+        <article class="Fact1content">
+            <h2>Stadium Facts</h2>
+            <ul class="stadfact">
+                <li id="stad1">Elland Road's capacity is 37,890</li>
+                <li id="stad2">Elland Road is the 12th largest stadium in the UK </li>
+                <li id="stad3">Ellands roads former name was the Old peacock ground</li>
+                <li id="stad4">Elland Road is located in beeston</li>
+                <li id="stad5">Elland Road is located in beeston</li>
+                <li id="stad6">It was first built in 1897</li>
+
+            </ul>
+        </article>
+        <article class="Fact2content">
+            <h2>Random Facts</h2>
+            <ul class="RandomFact">
+                <li id="ran1">Elland Road's capacity is 37,890</li>
+                <li id="ran2">Elland Road is the 12th largest stadium in the UK </li>
+                <li id="ran3">Ellands roads former name was the Old peacock ground</li>
+                <li id="ran4">Elland Road is located in beeston</li>
+                <li id="ran5">Elland Road is located in beeston</li>
+                <li id="ran6">It was first built in 1897</li>
+
+            </ul>
+        </article>
+    </section>
+    <script>
+        function nightmode() {
+            var element = document.body
+            element.classList.toggle("dark-mode")
+            document.getElementById("home").style.background = "white";
+
+        }
+    </script>
+</body></html>

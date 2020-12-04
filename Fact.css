@@ -8,18 +8,13 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-#Lab {
-    width: 85%;
-    margin: auto;
-
-}
-
 header {
     display: flex;
     width: 85%;
     margin: auto;
     align-items: center;
     min-height: 10vh;
+    border-bottom: 5px solid grey;
 }
 
 #logoleeds {
@@ -43,7 +38,6 @@ header {
     flex: 1;
 }
 
-
 .leedstext {
     margin: 15px;
     font-weight: bolder;
@@ -55,56 +49,10 @@ nav {
 
 }
 
-.Course {
-    width: 85%;
-    margin: auto;
-    margin-top: 20px;
-    border-bottom: 5px solid grey
-}
-
-#Lab {
-    width: 85%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    min-height: 20vh;
-    border-bottom: 5px solid grey;
-}
-
-.Html {
-    flex: 2;
-}
-
-.Css {
-
-    flex: 2;
-}
-
-.Java {
-    flex: 2;
-}
-
-.Http {
-    flex: 1;
-}
-
 .nightmode {
 
     flex: 1;
     justify-content: flex-end;
-}
-
-.text {
-    border-bottom: 5px solid grey;
-    margin: auto;
-    width: 85%;
-    min-height: 25vh;
-
-}
-
-.text h1 {
-    text-decoration: underline;
-    font-weight: bolder;
 }
 
 .nightmode,
@@ -118,13 +66,20 @@ nav {
     list-style: none;
 }
 
-#nav-link1,
 #nav-link2,
 #nav-link3,
 #nav-link4 {
     text-decoration: none;
     color: gray;
     font-weight: bold;
+}
+
+#nav-link1 {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 2px 3px;
+
 }
 
 .overview {
@@ -136,40 +91,87 @@ nav {
 
 }
 
-.text {
-    flex: 2;
-
-}
-
-.Name {
-    flex: 2;
-    margin-left: 20px;
-
-}
-
-group {
-    justify-content: flex-end;
-
-}
-
 .btnnight {
     margin-left: 10px;
     padding: 5px 5px;
     border: none;
 }
 
-h3 {
-    text-decoration: underline;
-    font-size: 20px;
+#home {
+    height: 30px;
+    width: 30px;
 }
 
-footer {
+.homebutton {
+    margin-left: 15px;
     display: flex;
-    min-height: 5vh;
+}
+
+
+
+#fact1,
+#fact2,
+#fact3,
+#fact4,
+#fact5 {
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+.Factcontent h2 {
+    margin-left: 15px;
+}
+
+.pagecontent {
+    display: flex;
     width: 85%;
     margin: auto;
+    align-items: center;
 }
 
+.Factcontent {
+    flex: 1;
+    justify-content: center;
+
+}
+
+.Fact1content {
+    flex: 1;
+}
+
+.Fact2content,
+.Fact1content,
+.Factcontent {
+    margin-left: 50px;
+}
+
+
+.Fact2content {
+    flex: 1;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+#stad1,
+#stad2,
+#stad3,
+#stad4,
+#stad5,
+#stad6 {
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+#ran1,
+#ran2,
+#ran3,
+#ran4,
+#ran5,
+#ran6 {
+    margin-top: 10px;
+    margin-left: 20px
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -178,8 +180,28 @@ footer {
 
     }
 
-    #nav-link {
+    #nav-link2,
+    #nav-link3,
+    #nav-link4,
+    #nav-link1 {
         margin: 10px;
+    }
+
+    .nightmode {
+        margin: 10px
+    }
+
+    .pagecontent {
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    .Fact2content,
+    .Fact1content,
+    .Factcontent {
+        align-content: center;
+        margin-top: 50px
     }
 
 }
@@ -195,7 +217,6 @@ footer {
     #nav-link4,
     #nav-link1 {
         font-size: 30px;
-        margin: 10px;
     }
 
     .nightmode {
@@ -208,7 +229,16 @@ footer {
 
     }
 
-    .overview {
-        margin-top: 0px;
+    .Fact2content,
+    .Fact1content,
+    .Factcontent {
+        align-content: center;
+        margin-top: 50px
     }
+
+}
+
+.overview {
+    margin-top: 0px;
+}
 }

@@ -8,18 +8,13 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-#Lab {
-    width: 85%;
-    margin: auto;
-
-}
-
 header {
     display: flex;
     width: 85%;
     margin: auto;
     align-items: center;
     min-height: 10vh;
+    border-bottom: 5px solid grey;
 }
 
 #logoleeds {
@@ -43,7 +38,6 @@ header {
     flex: 1;
 }
 
-
 .leedstext {
     margin: 15px;
     font-weight: bolder;
@@ -55,56 +49,10 @@ nav {
 
 }
 
-.Course {
-    width: 85%;
-    margin: auto;
-    margin-top: 20px;
-    border-bottom: 5px solid grey
-}
-
-#Lab {
-    width: 85%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    min-height: 20vh;
-    border-bottom: 5px solid grey;
-}
-
-.Html {
-    flex: 2;
-}
-
-.Css {
-
-    flex: 2;
-}
-
-.Java {
-    flex: 2;
-}
-
-.Http {
-    flex: 1;
-}
-
 .nightmode {
 
     flex: 1;
     justify-content: flex-end;
-}
-
-.text {
-    border-bottom: 5px solid grey;
-    margin: auto;
-    width: 85%;
-    min-height: 25vh;
-
-}
-
-.text h1 {
-    text-decoration: underline;
-    font-weight: bolder;
 }
 
 .nightmode,
@@ -118,13 +66,21 @@ nav {
     list-style: none;
 }
 
-#nav-link1,
 #nav-link2,
 #nav-link3,
-#nav-link4 {
+#nav-link4,
+#nav-link1 {
     text-decoration: none;
     color: gray;
     font-weight: bold;
+}
+
+#nav-link2 {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 2px 3px;
+
 }
 
 .overview {
@@ -136,55 +92,94 @@ nav {
 
 }
 
-.text {
-    flex: 2;
-
-}
-
-.Name {
-    flex: 2;
-    margin-left: 20px;
-
-}
-
-group {
-    justify-content: flex-end;
-
-}
-
 .btnnight {
     margin-left: 10px;
     padding: 5px 5px;
     border: none;
 }
 
-h3 {
-    text-decoration: underline;
-    font-size: 20px;
+#home {
+    height: 30px;
+    width: 30px;
 }
 
-footer {
+.homebutton {
+    margin-left: 15px;
     display: flex;
-    min-height: 5vh;
+}
+
+.User {
     width: 85%;
     margin: auto;
 }
 
+#text,
+#wtext {
+    display: none;
+}
+
+#correctimage {
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+
+.facttest {
+    flex: 1;
 
 
-@media screen and (max-width: 1024px) {
-    header {
-        flex-direction: column;
-
-    }
-
-    #nav-link {
-        margin: 10px;
-    }
 
 }
 
-@media only screen and (max-width: 768px) {
+.User {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 10vh;
+    flex-direction: column;
+
+}
+
+.pagecontent,
+.User {
+    justify-items: center;
+}
+
+.pagecontent {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 25vh;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Decade,
+.Year,
+.Trophies {
+
+    margin-left: 50px;
+}
+
+
+
+
+.Trophies {
+    flex: 2;
+}
+
+.Year {
+    flex: 4;
+}
+
+.Decade {
+    justify-content: flex-end;
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
     header {
         flex-direction: column;
 
@@ -194,7 +189,6 @@ footer {
     #nav-link3,
     #nav-link4,
     #nav-link1 {
-        font-size: 30px;
         margin: 10px;
     }
 
@@ -205,10 +199,14 @@ footer {
     .pagecontent {
         flex-direction: column;
         align-content: center;
-
     }
 
-    .overview {
-        margin-top: 0px;
+    .Decade,
+    .year,
+    .Trophies {
+        margin-top: 50px;
+        width: 85%;
     }
+
+
 }

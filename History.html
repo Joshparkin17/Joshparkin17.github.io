@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Leeds united</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joshua Parkin" />
+    <meta name="description" content="History Homepage" />
+    <link href="history.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="history.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="Leedslogo">
+            <img id="logoleeds" src="images/leeds.png" alt="Lufc logo">
+            <h4 class="leedstext">Leeds United</h4>
+
+        </div>
+        <nav>
+            <ul class="nav-pages">
+                <li> <a id="nav-link1" href="Fact.html">Facts</a> </li>
+                <li> <a id="nav-link2" href="History.html">History</a></li>
+                <li> <a id="nav-link3" href="players.html">Players</a></li>
+                <li> <a id="nav-link4" href="managers.html">Managers</a></li>
+            </ul>
+        </nav>
+        <div class="nightmode">
+            <img onclick="dark-mode" id="nightmode" src="images/lightonoff.png" alt="nightmode">
+            <button id="nightbtn" class="btnnight" onclick="nightmode()">Night mode</button>
+
+        </div>
+        <div class="homebutton">
+            <a href="home.html"><img id="home" src="images/home.png" alt="homepage"></a>
+
+        </div>
+    </header>
+    <section class="overview">
+        <div class="text">
+            <h1>History Page</h1>
+            <p> This is the webpage that contains the history on Leeds United </p>
+        </div>
+
+    </section>
+    <section class="User">
+        <div class="facttest">
+            <h2>Fact knowledge</h2>
+            <p>What year was Elland Road built:
+                <br>
+                <label for="answer">1897</label>
+                <input type="checkbox" id="answer" onclick="quiz()">
+                <label for="incorrect1">1927</label>
+                <input type="checkbox" id="incorrect1" onclick="quiz()">
+                <label for="incorrect2">2002</label>
+                <input type="checkbox" id="incorrect2" onclick="quiz()">
+                <img src="images/thumbs.png" id="correctimage" ;>
+
+            </p>
+        </div>
+        <p id="text">Correct answer!</p>
+        <p id="wtext">Incorrect answer</p>
+
+    </section>
+    <section class="pagecontent">
+
+        <article class="Trophies">
+            <h2> Major Trophies</h2>
+            <ul class=" mt">
+                <li id="t1">1972 Fa Cup </li>
+
+                <li id="t2"> 1967-68 European Fairs Cup winners</li>
+                <li id="t3">1970-71 European Fairs Cup winners</li>
+                <li id="t4">1991-92 First Division champions</li>
+                <li id="t5">1973-74 First Division champions</li>
+
+            </ul>
+        </article>
+        <article class="Year">
+            <h2>Early history</h2>
+            <ul class="stadfact">
+                <li id="stad1">The club was established in 1919, following the demise of Leeds City F.C.</li>
+                <li id="stad2">On 31 May 1920, Leeds United were elected to the Football League. </li>
+                <li id="stad3">Ellands roads former name was the Old peacock ground</li>
+                <li id="stad4">manager Revie chose to focus on the league for the 1968–69 campaign.Leeds secured the title in April 1969 with a 0–0 draw with challengers Liverpool at Anfield</li>
+            </ul>
+        </article>
+        <article class="Decade">
+            <h2>Last decade</h2>
+            <ul class="RandomFact">
+                <li id="ran1">Leeds were promoted to the premier Leauge in 2020 /li>
+                <li id="ran2">Leeds appointed Marcelo Bielsa in 2018 </li>
+                <li id="ran3">Massimo Cellino Left the club in 2017</li>
+
+            </ul>
+        </article>
+    </section>
+
+
+</body></html>
