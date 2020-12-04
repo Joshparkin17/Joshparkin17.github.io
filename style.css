@@ -183,32 +183,3 @@ footer {
     }
 
 }
-
-@media only screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-
-    }
-
-    #nav-link2,
-    #nav-link3,
-    #nav-link4,
-    #nav-link1 {
-        font-size: 30px;
-        margin: 10px;
-    }
-
-    .nightmode {
-        margin: 10px
-    }
-
-    .pagecontent {
-        flex-direction: column;
-        align-content: center;
-
-    }
-
-    .overview {
-        margin-top: 0px;
-    }
-}
